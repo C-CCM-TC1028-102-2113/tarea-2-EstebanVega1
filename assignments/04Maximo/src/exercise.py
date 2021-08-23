@@ -6,5 +6,5 @@ if numero_1<numero>numero_2:
     print (numero)
 elif numero<numero_1>numero_2:
     print (numero_1)
-if numero<numero_2>numero_1:
+elif numero<numero_2>numero_1:
     print (numero_2)
