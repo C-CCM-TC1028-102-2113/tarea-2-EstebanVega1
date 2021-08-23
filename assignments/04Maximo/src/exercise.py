@@ -1,7 +1,10 @@
-def main():
-    #escribe tu código abajo de esta línea
-    pass
+numero=int(input("Ponga un numero :"))
+numero_1=int(input("Ponga otro numero:"))
+numero_2=int(input("Ponga el ulitmo numero:"))
 
-
-if __name__=='__main__':
-    main()
+if numero_1<numero>numero_2:
+    print (numero)
+elif numero<numero_1>numero_2:
+    print (numero_1)
+if numero<numero_2>numero_1:
+    print (numero_2)
